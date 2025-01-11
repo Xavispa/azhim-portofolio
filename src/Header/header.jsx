@@ -4,16 +4,16 @@ import '../Header/Header.css'
 function header(){
 
     return (
-        <div className="header">
-        <h1 className="logo">Azhim Firdaus</h1>
-        <nav>
+        <header className="header">
+        <h1 className="title">Azhim Firdaus</h1>
+        <nav className="left-navbar">
           <ul>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#linkedin">LinkedIn</a>
-            <a href="#contact">Contact</a>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#linkedin">LinkedIn</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
-      </div>
+      </header>
     )
 }
 
