@@ -3,6 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './Header/header'
+import Hero from './Hero/Hero.jsx'
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -26,6 +27,7 @@ function App() {
         </p> */}
 
         <Header/>
+        <Hero/>
       </div>
       {/* <p className="read-the-docs">
         Click on the Vite and React logos to learn more
