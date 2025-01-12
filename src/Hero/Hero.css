@@ -1,0 +1,20 @@
+.ui-ux{
+    color: #4392F1;
+}
+
+.p1{
+    display: flex;
+    align-items: end;
+}
+
+.p2{
+    padding-left: 8px;
+}
+.p3{
+    margin-right: 744px;
+}    
+
+.hero {
+    color: #AFA98D;
+    font-size: 27.02px;
+}
